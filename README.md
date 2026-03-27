@@ -123,7 +123,7 @@ run_dbt_models
 
 ## dbt Lineage Graph
 
-![Lineage Graph](screenshots/lineage_graph.png)
+![Lineage Graph](lineage_graph.png)
 
 
 
