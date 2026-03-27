@@ -5,9 +5,12 @@ import random
 from datetime import datetime, timedelta
 
 fake = Faker()
+import os
+
 engine = create_engine(
-    "postgresql://postgres:rasikad9#@localhost:5432/ecommerce_db"
+    f"postgresql://postgres:{os.environ.get('DB_PASSWORD', 'your_password_here')}@localhost:5432/ecommerce_db"
 )
+
 
 ##Categories 
 categories = [
