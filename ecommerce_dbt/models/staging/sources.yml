@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: ecommerce
+    database: ecommerce_db
+    schema: public
+    tables:
+      - name: customers
+      - name: products
+      - name: orders
+      - name: order_items
+      - name: categories
